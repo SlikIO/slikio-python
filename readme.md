@@ -18,7 +18,7 @@ slikio =  slikio.SlikIO("prvkey_080618f6837fe75d8511")
 ## Pushing data to collections:
 To push data to your collection use the `sendData` method:
 ```python
-slikio.sendData(COLLECTION_ID, data);
+slikio.sendData(COLLECTION_ID, data)
 ```
 Example:
 ```python
@@ -29,7 +29,5 @@ data = {
 	'cost': 150.0
 }
 
-response = slik.sendData("col_3131c141431242", data)
-print response.text 
-# will print the response body, example: "success":"Data added to collection col_3131c141431242"}
+slikio.sendData("col_3131c141431242", data)
 ```

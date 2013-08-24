@@ -29,5 +29,7 @@ data = {
 	'cost': 150.0
 }
 
-print slik.sendData("col_3131c141431242", data)
+response = slik.sendData("col_3131c141431242", data)
+print response.text 
+# will print the response body, example: "success":"Data added to collection col_3131c141431242"}
 ```

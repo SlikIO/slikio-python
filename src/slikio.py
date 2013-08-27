@@ -5,7 +5,7 @@ class SlikIO:
 	"""Initializes a SlikIO object, takes a private api key"""
 	def __init__(self, private_key):
 		self.private_key = private_key
-		self.base_url = "http://{0}:@app.slik.io/api/v1/".format(private_key)
+		self.base_url = "https://{0}:@app.slik.io/api/v1/".format(private_key)
 
 	"""Pushes given data to a collection"""
 	def sendData(self, collection_id, data):

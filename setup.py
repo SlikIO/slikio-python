@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(name="slikio-python",
-      version="0.0.1",
+      version="0.0.2",
       description="Python library for SlikIO - Charts as a service",
       license="MIT",
       install_requires=["requests"],

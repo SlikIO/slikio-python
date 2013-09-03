@@ -3,11 +3,12 @@ from setuptools import setup, find_packages
 
 setup(name="slikio-python",
       version="0.0.2",
-      description="Python library for SlikIO - Charts as a service",
+      description="Python library for SlikIO - Charts for developers",
+      long_description= "The source is on GitHub: http://github.com/SlikIO/slikio-python. Feel free to send me questions or feature requests to <daniel@slik.io>.",
       license="MIT",
       install_requires=["requests"],
       author="Daniel Brodsky, SlikIO",
       author_email="daniel@slik.io",
-      url="http://github.com/SlikIO/slikio-python",
+      url="http://slik.io",
       packages = find_packages(),
-      keywords= "slikio,SlikIO,slik.io")
+      keywords= "slikio,SlikIO,slik.io, charts, graphs, django chart templates")
